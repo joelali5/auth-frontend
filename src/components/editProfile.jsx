@@ -65,7 +65,7 @@ export default function EditProfile() {
   }
 
   return (
-    <div className="profile">
+    <div className="profile edit-profile">
       <div className="profile-heading">
         <PageTitle />
         <Link
@@ -88,7 +88,7 @@ export default function EditProfile() {
         <div className="upload-img">
           <input type="file" className="edit-img-icon" onChange={saveFile} />
           <a className="upload-btn" onClick={handleUpload}>
-            ✔️
+            upload
           </a>
           {imageError ? (
             <p className="img-error-msg">{imageError}</p>
@@ -110,7 +110,7 @@ export default function EditProfile() {
             type="text"
             rows="4"
             cols="39"
-            className="textarea"
+            className="textarea form-inputs"
             name="bio"
             value={updateProfile.bio}
             onChange={handleChange}

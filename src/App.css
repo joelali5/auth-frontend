@@ -168,7 +168,6 @@
 
 .profile-heading {
   display: flex;
-
   padding: 0 1em;
   justify-content: space-between;
 }
@@ -285,13 +284,19 @@
 .back-link {
   font-size: 1.3rem;
   text-decoration: none;
-  color: #256172;
-  margin-left: 5.5em;
+  color: #444;
+  margin-left: .75em;
+}
+
+.edit-profile {
+  background-color: #f3f3f3;
+}
+
+.form-group{
+  width: 350px;
 }
 
 .edit-profile-details {
-  border: 1px solid #444;
-  width: 80%;
   margin: 0 auto;
   margin-bottom: 2em;
   border-radius: 10px;
@@ -327,14 +332,22 @@
   font-size: 1.1rem;
 }
 .upload-btn {
-  padding: 0.35em;
+  padding: .3em 1em;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
   margin-left: -6em;
-  background-color: #ccc;
-  color: #256172;
+  color: rgb(249, 115, 115);
+  border: 1px solid rgb(249, 115, 115);
 }
 
+.upload-btn:hover,
+.upload-btn:focus {
+  color: #FFF;
+  border: 0;
+  background-color: rgb(249, 115, 115);
+  transition: all 1s ease-in-out;
+}
 input,
 textarea{
   font-size: 1.2rem;
@@ -349,8 +362,8 @@ textarea{
 
 .form-inputs {
   border-radius: 5px;
-  border: 1px solid #444;
-  width: 35%;
+  border: 1px solid rgb(249, 115, 115);
+  width: 100%;
   display: block;
   margin-bottom: 1.5em;
 }
@@ -370,6 +383,7 @@ textarea{
 
 .textarea {
   margin-bottom: 1.5em;
+  width: 365px;
 }
 
 .textarea:focus {
@@ -415,14 +429,24 @@ img {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: #256172;
-  border: 1.5px solid #256172;
+  color: rgb(249, 115, 115);
+  border: 1.5px solid rgb(249, 115, 115);
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover,
+.submit-btn:focus{
+  transition: all 1s ease-in-out;
+  background: rgb(249, 115, 115);
+  border: 0;
+  color: #FFF;
 }
 
 .edit-logout{
   margin-top: 1.5em;
   margin-right: 1.5em;
+  align-self: start;
 }
 
 .profile-err{
