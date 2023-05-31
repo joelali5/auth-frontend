@@ -355,6 +355,7 @@ textarea{
 .upload-img {
   margin-bottom: 1em;
   display: flex;
+  width: 100%;
 }
 
 .change-name {
