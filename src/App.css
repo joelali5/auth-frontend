@@ -52,13 +52,13 @@
 }
 
 .auth-form {
-  width: 350px;
+  width: 300px;
+  margin: 0 auto;
 }
 .form-input {
   display: block;
   font-size: 1.2rem;
   width: 100%;
-  margin-left: 1.8em;
   margin-bottom: 1em;
   padding: 0.7em 0;
   border: 0;
@@ -70,9 +70,8 @@
   margin-bottom: 3.75em;
 }
 .submit {
-  width: 360px;
+  width: 300px;
   padding: 0.95em 0;
-  margin-left: 1.8em;
   background-color: rgb(249, 115, 115);
   border: 0;
   cursor: pointer;
