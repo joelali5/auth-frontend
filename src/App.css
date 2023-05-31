@@ -428,19 +428,18 @@ img {
   padding: .65em 1.3em;
   font-size: 1.2rem;
   text-transform: uppercase;
+  width: 370px;
   font-weight: bold;
-  color: rgb(249, 115, 115);
-  border: 1.5px solid rgb(249, 115, 115);
+  color: #FFFFFF;
+  background-color: rgb(249, 115, 115);
   border-radius: 5px;
   cursor: pointer;
 }
 
 .submit-btn:hover,
 .submit-btn:focus{
+  background-color: #7b7878;
   transition: all 1s ease-in-out;
-  background: rgb(249, 115, 115);
-  border: 0;
-  color: #FFF;
 }
 
 .edit-logout{

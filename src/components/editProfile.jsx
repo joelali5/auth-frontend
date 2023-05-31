@@ -143,7 +143,7 @@ export default function EditProfile() {
             placeholder="Enter your new password"
           />
 
-          <button className="submit-btn">Submit</button>
+          <input type="submit" className="form-inputs submit-btn" />
         </form>
         {profileError && <p className="img-error-msg">{profileError}</p>}
         {profileSuccess && <p className="success-msg">{profileSuccess}</p>}
