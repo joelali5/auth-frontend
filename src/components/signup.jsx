@@ -35,7 +35,7 @@ export default function Signup() {
         <p className="success">
           {regSuccess}{" "}
           <span>
-            <Link className="join" to="/signin">
+            <Link className="join" to="/">
               login
             </Link>
           </span>
@@ -45,7 +45,7 @@ export default function Signup() {
         <p className="header-subtext error-text">
           {err}
           <span>
-            <Link className="join" to="/signin">
+            <Link className="join" to="/">
               login
             </Link>
           </span>

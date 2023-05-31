@@ -5,7 +5,7 @@ export default function InvalidAccessToken({err}) {
     <div className="profile center-div">
       <p className="profile-err">
         {err}{" "}
-        <Link to="/signin" className="profile-err-text">
+        <Link to="/" className="profile-err-text">
           Please Signin
         </Link>
       </p>
