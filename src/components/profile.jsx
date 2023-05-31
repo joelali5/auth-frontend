@@ -61,7 +61,7 @@ export default function Profile() {
           </div>
           {imgErr && <p className="set-img-err">{imgErr}</p>}
           <h5 className="username">{profile.name}</h5>
-          <Link to="/signin" className="logout" onClick={handleLogout}>
+          <Link to="/" className="logout" onClick={handleLogout}>
             Logout
           </Link>
         </div>
