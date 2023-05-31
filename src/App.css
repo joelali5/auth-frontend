@@ -379,6 +379,7 @@ textarea{
 .logout {
   font-size: 1.15rem;
   text-decoration: none;
+  margin: 0 auto;
   color: rgb(249, 115, 115);
   padding: .3em;
   background: #454343;
