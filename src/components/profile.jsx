@@ -1,5 +1,3 @@
-import PageTitle from "./pageTitle";
-// import img from "../assets/joel.png";
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { userPhoto, userProfile } from "../../utils/api";
