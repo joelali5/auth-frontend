@@ -336,7 +336,7 @@
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  margin-left: -6em;
+  align-self: start;
   color: rgb(249, 115, 115);
   border: 1px solid rgb(249, 115, 115);
 }
@@ -354,10 +354,12 @@ textarea{
 }
 .upload-img {
   margin-bottom: 1em;
+  display: flex;
 }
 
 .change-name {
   padding: 0.5em;
+  width: 370px;
 }
 
 .form-inputs {
