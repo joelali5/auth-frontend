@@ -54,7 +54,6 @@ export default function Profile() {
   ) : (
     <div className="profile">
       <div className="profile-heading">
-        <PageTitle />
         <div className="user-info">
           <div className="img-container">
             <img
@@ -84,7 +83,7 @@ export default function Profile() {
         </div>
         <div className="photo-group border-bottom">
           <h3 className="photo">Photo</h3>
-          <div className="img-container">
+          <div className="img-container img-size">
             <img
               src={`data:image/png;base64,${base64Str}`}
               alt="profile image"
