@@ -28,7 +28,7 @@ export default function Signin() {
         <PageTitle />
       </div>
       <p className="welcome-text">Welcome Back!</p>
-      <form className="auth-form" onSubmit={handleSubmit}>
+      <form className="auth-form mb" onSubmit={handleSubmit}>
         <input
           type="email"
           name="email"

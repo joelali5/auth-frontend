@@ -52,26 +52,26 @@ export default function Signup() {
         </p>
       )}
 
-      <form className="auth-form" onSubmit={handleSubmit}>
+      <form className="auth-form mb" onSubmit={handleSubmit}>
         <input
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="📧 Email"
+          placeholder="Email"
           className="form-input text"
         />
         <input
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="🔒 Password"
-          className="form-input text"
+          placeholder="Password"
+          className="form-input password-mb"
         />
         <input type="submit" value="Start coding now" className="submit" />
       </form>
       <p className="redirect">
         Already a member?{" "}
-        <Link to="/signin" className="join">
+        <Link to="/" className="join">
           Login
         </Link>
       </p>

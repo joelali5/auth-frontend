@@ -24,7 +24,8 @@
   margin-left: 1em;
 }
 
-.login{
+.login,
+.register{
   min-width: 360px;
   border-radius: 15px;
   width: 400px;
@@ -32,7 +33,7 @@
   margin: 0 auto;
   background-color: #FFF;
   padding-bottom: 1em;
-  box-shadow: 5px 5px 5px 5px #888888
+  box-shadow: 2px 2px 3px 3px #888888
 }
 
 .form-deco{
@@ -89,12 +90,16 @@
 
 .ml{margin-left: 1.5em;}
 
+.mb{margin-bottom: 2em;}
+
 .form-input:focus {
   outline: none;
 }
 
 .redirect {
   font-size: 1.5rem;
+  width: 300px;
+  margin: 0 auto;
 }
 .join {
   color: rgb(27, 101, 239);
@@ -104,7 +109,9 @@
 
 .header-text,
 .header-subtext {
-  width: 350px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
 }
 
 .header-text {
