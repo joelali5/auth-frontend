@@ -24,37 +24,40 @@ export default function Signin() {
   };
   return (
     <div className="login">
-      <PageTitle />
-      {err && (
-        <p className="header-subtext error-text">
-          {err} OR{" "}
-          <span>
-            <Link to="/signup" className="join">
-              Signup
-            </Link>
-          </span>
-        </p>
-      )}
+      <div className="form-deco">
+        <PageTitle />
+      </div>
+      <p className="welcome-text">Welcome Back!</p>
       <form className="auth-form" onSubmit={handleSubmit}>
         <input
           type="email"
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="📧 Email"
-          className="form-input text"
+          placeholder="Email Address"
+          className="form-input"
         />
         <input
           type="password"
           name="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="🔒 Password"
-          className="form-input text"
+          placeholder="Password"
+          className="form-input password-mb"
         />
         <input type="submit" value="Login" className="submit" />
+        {err && (
+          <p className="header-subtext error-text ml">
+            {err} OR{" "}
+            <span>
+              <Link to="/signup" className="join">
+                Signup
+              </Link>
+            </span>
+          </p>
+        )}
       </form>
-      <p className="redirect">
+      <p className="redirect ml">
         Not a member?{" "}
         <Link to="/signup" className="join">
           Register

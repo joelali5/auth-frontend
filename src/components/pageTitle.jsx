@@ -7,7 +7,7 @@ export default function PageTitle() {
       <div className="logo-container">
         <img src={devchallenges} alt="page-logo" className="logo" />
       </div>
-      <h2 className="profile-title">Profile</h2>
+      <h2 className="profile-title">Auth-system</h2>
     </Link>
   );
 }

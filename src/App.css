@@ -9,61 +9,86 @@
 
 .profile-title{
   font-size: 2.5rem;
-  color: #256172;
+  color: #ccc;
+  margin-left: .5em;
 }
 
 .logo-container {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   margin-right: 0.5em;
 }
 
 .logo {
   width: 100%;
+  margin-left: 1em;
 }
 
-.login,
-.register {
-  background-color: #f8eaea;
+.login{
+  min-width: 360px;
+  border-radius: 15px;
   width: 450px;
+  height: min-content;
   margin: 0 auto;
-  margin-top: 350px;
-  border-radius: 10px;
-  padding: 0 1.5em;
-  padding-bottom: 4em;
-  border: 1px solid grey;
-  box-shadow: 0 0 10px #444;
-  position: relative;
+  background-color: #FFF;
+  padding-bottom: 1em;
+  box-shadow: 5px 5px 5px 5px #888888
+}
+
+.form-deco{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 300px;
+  background-color: rgb(249, 115, 115);
+  margin-bottom: 1.5em;
+}
+
+.welcome-text{
+  color: #111111;
+  font-size: 2rem;
+  margin-left: 1.2em;
+  font-weight: 700;
+  margin-bottom: 2em;
 }
 
 .auth-form {
-  width: 400px;
+  width: 350px;
 }
 .form-input {
   display: block;
   font-size: 1.2rem;
   width: 100%;
+  margin-left: 1.8em;
   margin-bottom: 1em;
   padding: 0.7em 0;
-  border: 1px solid gray;
-  border-radius: 5px;
-  background-color: #e6eefb;
+  border: 0;
+  border-bottom: 2px solid #7b7878;
+  color: #7b7878;
 }
 
-.text {
-  padding-left: 0.5em;
+.password-mb{
+  margin-bottom: 3.75em;
 }
-
 .submit {
-  width: 410px;
-  padding: 0.65em 0;
-  background-color: cornflowerblue;
+  width: 360px;
+  padding: 0.95em 0;
+  margin-left: 1.8em;
+  background-color: rgb(249, 115, 115);
   border: 0;
   cursor: pointer;
   border-radius: 5px;
-  color: #fff;
+  color: #f4f1f1;
+  font-weight: 600;
+  text-transform: uppercase;
   font-size: 1.15rem;
 }
+
+.submit:hover {
+  scale: 1.03;
+  transition: scale 1s ease-out;
+}
+
+.ml{margin-left: 1.5em;}
 
 .form-input:focus {
   outline: none;
@@ -235,9 +260,6 @@
   font-size: 1.4rem;
   color: #444;
   font-family: monospace;
-}
-.password {
-  margin-right: 1.8em;
 }
 
 .bio {
