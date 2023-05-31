@@ -79,7 +79,7 @@ export default function Profile() {
             Edit
           </Link>
         </div>
-        <div className="photo-group border-bottom">
+        {/* <div className="photo-group border-bottom">
           <h3 className="photo">Photo</h3>
           <div className="img-container img-size">
             <img
@@ -87,7 +87,7 @@ export default function Profile() {
               alt="profile image"
             />
           </div>
-        </div>
+        </div> */}
         <div className="name-group border-bottom">
           <h3 className="name">Name</h3>
           <p className="name-value">{profile.name}</p>
